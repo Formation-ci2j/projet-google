@@ -1,0 +1,92 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    
+     border: 1px solid #000;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 10px;
+     height: 30px;
+     width: 500px;
+     box-shadow: 1px 1px 5px #888;
+     border-radius: 40px;
+}
+
+
+.input-box{
+     margin-left: 150px;
+     width: 420px;
+     height: 25px;
+     outline: none;
+     background: transparent;
+     border: none;
+     font-size: 15px;
+}
+
+.mic{
+    color: gold;
+    float: right;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: centert;
+    align-items: center;
+    padding: 11%;
+    padding-top: 22%;
+    padding-right: 25%;
+    padding-bottom: 2700%;
+}
+
+.input-box{
+    margin-left: 15px;
+    width: 500px;
+    height: 250px;
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 20px
+}
+.search{
+    float: left;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    padding: 18%;
+    padding-left: 20%;
+    margin-top: 4%;
+
+}
+.logo-de-google{
+    position: absolute;
+    top : 10%;
+    left :50%;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    padding-bottom: 250px;
+}
+.button{
+    position: absolute;
+    top : 20%;
+    left :30%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    margin: 75px 10px 0 0;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    color: #6e6e6e;
+    border-radius: 5px;
+    margin-top: 27%;
+}
+.btn:hover{
+    border: 1px solid #a4a4a4;
+    border-radius: 5px;
+}
